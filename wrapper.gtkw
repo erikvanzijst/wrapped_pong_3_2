@@ -1,0 +1,93 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat May 15 22:16:33 2021
+[*]
+[dumpfile] "/home/erik/work/wrapped_pong/wrapper.vcd"
+[dumpfile_mtime] "Sat May 15 22:14:46 2021"
+[dumpfile_size] 57446
+[savefile] "/home/erik/work/wrapped_pong/wrapper.gtkw"
+[timestart] 32870000
+[size] 2088 1093
+[pos] -1 -1
+*-23.910397 155293000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] wrapper.
+[treeopen] wrapper.pong0.
+[treeopen] wrapper.pong0.score0.
+[sst_width] 233
+[signals_width] 188
+[sst_expanded] 1
+[sst_vpaned_height] 316
+@28
+wrapper.wb_clk_i
+@22
+wrapper.la_data_in[31:0]
+@28
+wrapper.wb_rst_i
+wrapper.active
+@200
+-
+@28
+wrapper.pong0.reset
+@200
+-
+@800022
+wrapper.io_in[37:0]
+@28
+(25)wrapper.io_in[37:0]
+(26)wrapper.io_in[37:0]
+(27)wrapper.io_in[37:0]
+(28)wrapper.io_in[37:0]
+@1001200
+-group_end
+@200
+-start
+@28
+(29)wrapper.io_in[37:0]
+@200
+-
+@800022
+wrapper.io_out[37:0]
+@200
+-
+-screen
+@28
++{io_out[26] LE} (11)wrapper.io_out[37:0]
+(12)wrapper.io_out[37:0]
+(13)wrapper.io_out[37:0]
+(14)wrapper.io_out[37:0]
+(15)wrapper.io_out[37:0]
+(16)wrapper.io_out[37:0]
+@200
+-
+-7-segment
+@28
+wrapper.pong0.score0.reset
+wrapper.pong0.score0.clk
+wrapper.pong0.score0.clk_toggle
+@22
+wrapper.pong0.score0.blinker[9:0]
+wrapper.pong0.score0.score_p1[3:0]
+wrapper.pong0.score0.score_p2[3:0]
+wrapper.pong0.score0.dout_p1[6:0]
+wrapper.pong0.score0.dout_p2[6:0]
+@23
+wrapper.pong0.score0.dout[6:0]
+@200
+-
+@28
++{cath io_out[20]} (17)wrapper.io_out[37:0]
+(18)wrapper.io_out[37:0]
+(19)wrapper.io_out[37:0]
+(20)wrapper.io_out[37:0]
+(21)wrapper.io_out[37:0]
+(22)wrapper.io_out[37:0]
+(23)wrapper.io_out[37:0]
+(24)wrapper.io_out[37:0]
+@200
+-
+@22
+wrapper.pong0.score0.seven_seg.din[3:0]
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
