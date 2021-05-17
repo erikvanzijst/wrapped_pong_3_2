@@ -1,8 +1,8 @@
 `default_nettype none
 `timescale 1ns/1ns
-`ifdef FORMAL
+//`ifdef FORMAL
     `define MPRJ_IO_PADS 38    
-`endif
+//`endif
 module wrapper (
     // interface as user_proj_example.v
     input wire wb_clk_i,
