@@ -74,7 +74,7 @@ module wrapper (
     assign buf_io_oeb = {`MPRJ_IO_PADS{1'b0}};
     // instantiate your module here, connecting what you need of the above signals
 
-    pong #(.GAMECLK(8)) pong0 (
+    pong #(.GAMECLK(8), .SCREENTIMERWIDTH(`SCREENTIMERWIDTH)) pong0 (
         .clk(wb_clk_i),
         .reset(la_data_in[0]),
         
